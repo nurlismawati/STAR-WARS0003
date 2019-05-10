@@ -16,7 +16,9 @@ public class StarWars0003 {
 		for(int i=1; i <=a; i++){
 			System.out.print(i + " ");
 		}
-			System.out.println("UNDEFINED");
+			for(int i=1; i>=a; i++){
+			System.out.print("UNDEFINED");
+			break;
+		}
 	}
-
 }
